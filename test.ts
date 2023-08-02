@@ -44,15 +44,39 @@
 // Generic(["문자열", 55]);
 // Generic([true, { a: "hello", b: 55 }]);
 
-type Hello = <T>(value: T) => T;
-const helloFunc: Hello = <T>(value: T): T => {
-  return value;
-};
+// type Hello = <T>(value: T) => T;
+// const helloFunc: Hello = <T>(value: T): T => {
+//   return value;
+// };
+// interface ConFunc {
+//     <T>(value:T): void
+//   }
+// interface Hello1 {
+//   <T>(message: T): T;
+// }
 
-interface Hello1 {
-  <T>(message: T): T;
-}
+// const helloFunc1: Hello1 = <T>(value: T): T => {
+//   return value;
+// };
+// type MuziFunc = <T>(value : T) => T;
+// const getMuzi:MuziFunc =  <T>(value : T) : T=> { return value };
+// getMuzi('카카오 무지').split('')
 
-const helloFunc1: Hello1 = <T>(value: T): T => {
-  return value;
-};
+
+//   const getCon:ConFunc = <T>(value:T):void=>{
+//     console.log(value)
+//   }
+//   getCon('무지 앤 콘')
+
+// interface ConFunc {
+//     <T>(value:T)
+//   }
+//   const getCon:ConFunc = <T>(value:T):void=>{
+//     console.log(value)
+//   }
+const Generic = <T, K>(a: [T, K]): [T, K] => {
+    return a;
+  };
+  
+  Generic(["문자열", 55]);
+  Generic([true, { a: "hello", b: 55 }]);
