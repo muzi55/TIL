@@ -62,7 +62,6 @@
 // const getMuzi:MuziFunc =  <T>(value : T) : T=> { return value };
 // getMuzi('카카오 무지').split('')
 
-
 //   const getCon:ConFunc = <T>(value:T):void=>{
 //     console.log(value)
 //   }
@@ -75,8 +74,25 @@
 //     console.log(value)
 //   }
 const Generic = <T, K>(a: [T, K]): [T, K] => {
-    return a;
-  };
-  
-  Generic(["문자열", 55]);
-  Generic([true, { a: "hello", b: 55 }]);
+  return a;
+};
+
+Generic(["문자열", 55]);
+Generic([true, { a: "hello", b: 55 }]);
+
+// // 매개변수 x는 숫자 or 문자
+// const numOrString = (x: number | string): void => {
+//   // x의 타입이 문자형이라면 ?
+//   if (typeof x === "string") {
+//     // x 에 마우스를 얹혀보면
+//     console.log(x); // (parameter) x: string
+//     x.slice(2, 0); // 문자형 메서드인 slice를 사용할 수 있다.
+//     Math.max(x, x); // error => 'string' 형식의 인수는 'number' 형식의 매개 변수에 할당될 수 없습니다.
+//   }
+//   // x의 타입이 숫자형이라면 ?
+//   if (typeof x === "number") {
+//     console.log(x); // (parameter) x: number
+//     x.slice(2, 0); // error => 'number' 형식에 'slice' 속성이 없습니다.
+//   }
+// };
+// numOrString("무지");
