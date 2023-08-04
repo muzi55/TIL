@@ -73,12 +73,12 @@
 //   const getCon:ConFunc = <T>(value:T):void=>{
 //     console.log(value)
 //   }
-const Generic = <T, K>(a: [T, K]): [T, K] => {
-  return a;
-};
+// const Generic = <T, K>(a: [T, K]): [T, K] => {
+//   return a;
+// };
 
-Generic(["문자열", 55]);
-Generic([true, { a: "hello", b: 55 }]);
+// Generic(["문자열", 55]);
+// Generic([true, { a: "hello", b: 55 }]);
 
 // // 매개변수 x는 숫자 or 문자
 // const numOrString = (x: number | string): void => {
