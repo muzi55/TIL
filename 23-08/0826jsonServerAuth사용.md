@@ -13,10 +13,10 @@
 
 ```
 # NPM
-npm install -D json-server json-server-auth axios
+npm install -D json-server json-server-auth axios react-cookie
 
 # Yarn
-yarn add -D json-server json-server-auth axios
+yarn add -D json-server json-server-auth axios react-cookie
 ```
 
 그간 로그인 회원가입에 손을 놓고있으니, 이쪽에 대해 너무 안일했던거같다. jwt가 뭔지 세션이뭔지 공부하는대 한세월이 걸렸다.
