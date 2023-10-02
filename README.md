@@ -25,3 +25,4 @@ Today I Learned !!
 ### 10
 
 - [02 모달창 만들기](https://github.com/muzi55/TIL/blob/main/23-10/1002%EB%AA%A8%EB%8B%AC%EC%B0%BD.md)
+- [03 모달창 전역 상태관리](https://github.com/muzi55/TIL/blob/october/23-10/1003%EB%AA%A8%EB%8B%AC%EC%B0%BD%20%EC%A0%84%EC%97%AD%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC.md)
