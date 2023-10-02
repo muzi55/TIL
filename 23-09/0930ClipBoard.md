@@ -143,3 +143,4 @@ navigator.clipboard.readText().then((text) => {
   }
 });
 ```
+try문 안에서 readText().then() 을 사용해 값을 할당해주면 된다.
