@@ -210,7 +210,7 @@ increaseAndPrint(0)
 
 어떤부분에서 에러가 났는지 파악하기 어렵고, 특정 조건에서 분기를 설정하기 힘들다는 단점이 있다.
 
-그렇기에 사용되는것이 `es8` 에 등장한 `async`, `await` 문법이다.
+그렇기에 사용되는것이 `es8` 에 등장한 [`async`, `await`](https://github.com/muzi55/TIL/blob/october/23-10/aysnc_await%20%EB%AC%B8%EB%B2%95.md) 문법이다.
 <br/>
 <br/>
 <br/>
