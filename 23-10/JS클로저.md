@@ -2,8 +2,11 @@
 
 ![Alt text](../images/canIReactBG/%EB%8B%B9%EC%8B%A0%EB%8F%84%ED%95%A0%EC%88%98%EC%9E%88%EB%8B%A4%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.jpg)
 
-- `오늘의 할일`
+- `오늘의 할일` 클로저의 이해와 렉시컬 환경에대해 알 수 있다.
 
+<br/>
+<br/>
+<br/>
 ## 클로저의 개념
 
 클로저는 `함수와 그 함수가 선언된 렉시컬 환경`과의 조합<br/>
