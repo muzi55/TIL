@@ -2,7 +2,9 @@
 
 ![Alt text](../images/canIReactBG/%EB%8B%B9%EC%8B%A0%EB%8F%84%ED%95%A0%EC%88%98%EC%9E%88%EB%8B%A4%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.jpg)
 
-- `오늘의 한일`
+- `오늘의 한일` promise에 대해 이해할 가벼운 이해를 할 수 있었다
+  <br/>
+  <br/>
 
 ## Promise 란?
 
@@ -68,6 +70,8 @@ increaseAndPrint(0, (n) => {
 이렇게 깊이가 `>` 형식으로 깊이가 깊어지는 콜백지옥에 빠진다.
 
 이러한 코드에서 콜백지옥을 해결하기위해 promise를 사용해보자!
+<br/>
+<br/>
 
 ### promise 만들기
 
@@ -184,7 +188,6 @@ increaseAndPrint(0)
 이런식의 코드가 작성이된다.
 <br/>
 <br/>
-<br/>
 
 하지만 이것도 뭔가 ... 말 안해도 알것이다. 길고 너저분하다.
 
@@ -208,3 +211,36 @@ increaseAndPrint(0)
 어떤부분에서 에러가 났는지 파악하기 어렵고, 특정 조건에서 분기를 설정하기 힘들다는 단점이 있다.
 
 그렇기에 사용되는것이 `es8` 에 등장한 `async`, `await` 문법이다.
+<br/>
+<br/>
+<br/>
+
+```js
+const increaseAndPrint = (n) =>
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const value = n + 1;
+
+      if (value === 5) {
+        const error = new Error();
+        error.name = "value is Five Error";
+        reject(error);
+        return;
+      }
+
+      console.log(value);
+      resolve(value);
+    }, 1000);
+  });
+
+increaseAndPrint(0)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .catch((error) => {
+    console.error(error);
+  });
+```

@@ -3,10 +3,10 @@
 ![Alt text](../images/canIReactBG/%EB%8B%B9%EC%8B%A0%EB%8F%84%ED%95%A0%EC%88%98%EC%9E%88%EB%8B%A4%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.jpg)
 
 - `오늘의 할일` 클로저의 이해와 렉시컬 환경에대해 알 수 있다.
+  <br/>
+  <br/>
+  <br/>
 
-<br/>
-<br/>
-<br/>
 ## 클로저의 개념
 
 클로저는 `함수와 그 함수가 선언된 렉시컬 환경`과의 조합<br/>
@@ -113,60 +113,68 @@ function innerFunc() {
 이건 js의 가비지 컬렉터가 있기 때문이다.
 
 - outer 함수의 렉시컬 호나경은 참조하는 곳이 있으니 GC가 건들이지 않음.
+  <br/>
+  <br/>
 
 ### 클로저와 클로저가 아닌 함수
 
 밑 두개의 A, B, C 코드블럭중 어떤게 클로저인가 ?
 
-```js
-// A
-function foo() {
-  const x = 1;
-  const y = 2;
+1. A
 
-  function bar() {
-    const z = 3;
-    console.log(z);
-  }
+   ```js
+   // A
+   function foo() {
+     const x = 1;
+     const y = 2;
 
-  return bar;
-}
+     function bar() {
+       const z = 3;
+       console.log(z);
+     }
 
-const bar = foo();
-bar();
-```
+     return bar;
+   }
 
-```js
-// B
-function foo() {
-  const x = 1;
+   const bar = foo();
+   bar();
+   ```
 
-  function bar() {
-    debugger;
-    console.log(x);
-  }
-  bar();
-}
+2. B
 
-foo();
-```
+   ```js
+   // B
+   function foo() {
+     const x = 1;
 
-```js
-// C
-function foo() {
-  const x = 1;
-  const y = 2;
+     function bar() {
+       debugger;
+       console.log(x);
+     }
+     bar();
+   }
 
-  function bar() {
-    debugger;
-    console.log(x);
-  }
-  return bar;
-}
+   foo();
+   ```
 
-const bar = foo();
-bar();
-```
+3. C
+
+   ```js
+   // C
+   function foo() {
+     const x = 1;
+     const y = 2;
+
+     function bar() {
+       debugger;
+       console.log(x);
+     }
+     return bar;
+   }
+
+   const bar = foo();
+   bar();
+   ```
 
 A는 클로저 함수가 아니다.<br/>
 
