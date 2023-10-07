@@ -64,6 +64,7 @@ function App() {
     setClientXY([e.clientX, e.clientY]);
     console.log([e.clientX, e.clientY]);
   };
+
   useEffect(() => {
     window.addEventListener("mousemove", handleMouseMove);
 
