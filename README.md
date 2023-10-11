@@ -26,4 +26,7 @@ Today I Learned !!
 
 - [02 모달창 만들기](https://github.com/muzi55/TIL/blob/main/23-10/1002%EB%AA%A8%EB%8B%AC%EC%B0%BD.md)
 - [03 모달창 전역 상태관리](https://github.com/muzi55/TIL/blob/october/23-10/1003%EB%AA%A8%EB%8B%AC%EC%B0%BD%20%EC%A0%84%EC%97%AD%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC.md)
-- [05 기술면접 질의응답](https://github.com/muzi55/TIL/blob/main/23-10/1005.%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8%20%EC%9D%B8%ED%84%B0%EB%B7%B0.md)
+- [05 면접 질문 인터뷰](https://github.com/muzi55/TIL/blob/october/23-10/1005.%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8%20%EC%9D%B8%ED%84%B0%EB%B7%B0.md)
+- [06 메모리 누수, 메모리릭](https://github.com/muzi55/TIL/blob/october/23-10/1006%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EB%88%84%EC%88%98MemoryLeak.md)
+- [07 면접 질문 REACT](https://github.com/muzi55/TIL/blob/october/23-10/1007%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8%20REACT.md)
+- [11 MAP SAP/ SSR CSR 차이 알아보기](https://github.com/muzi55/TIL/blob/october/23-10/1011%EB%A0%8C%EB%8D%94%EB%A7%81.md)
