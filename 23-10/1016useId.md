@@ -52,7 +52,7 @@ function MyComponents(){
 
 ### 코드
 
-<iframe src="https://codesandbox.io/embed/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://codesandbox.io/embed/react-useid-t4vwn6?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="react useId"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
