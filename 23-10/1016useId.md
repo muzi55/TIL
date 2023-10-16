@@ -3,6 +3,8 @@
 ![Alt text](../images/canIReactBG/%EB%8B%B9%EC%8B%A0%EB%8F%84%ED%95%A0%EC%88%98%EC%9E%88%EB%8B%A4%EB%A6%AC%EC%95%A1%ED%8A%B8.png)
 
 - `오늘의 한일` useId를 사용하여 고유 ID 생성하기
+- [![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
+
   <br/>
   <br/>
   <br/>
@@ -49,8 +51,6 @@ function MyComponents(){
 <br/>
 
 ### 코드
-
-[![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
 
 <iframe src="https://codesandbox.io/embed/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
