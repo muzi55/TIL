@@ -31,3 +31,4 @@ Today I Learned !!
 - [07 면접 질문 REACT](https://github.com/muzi55/TIL/blob/october/23-10/1007%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8%20REACT.md)
 - [11 MAP SAP/ SSR CSR 차이 알아보기](https://github.com/muzi55/TIL/blob/october/23-10/1011%EB%A0%8C%EB%8D%94%EB%A7%81.md)
 - [16 useId 사용하기](https://github.com/muzi55/TIL/blob/october/23-10/1016useId.md)
+- [17 lazy 사용하기](https://github.com/muzi55/TIL/blob/october/23-10/1017LazyImport.md)
