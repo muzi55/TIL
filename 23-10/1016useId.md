@@ -52,6 +52,11 @@ function MyComponents(){
 
 ### 코드
 
+![Alt text](images/1016useId/useId1.gif)
+<br/>
+<br/>
+<br/>
+<br/>
 [![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-9dg93p?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
