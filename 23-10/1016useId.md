@@ -52,7 +52,9 @@ function MyComponents(){
 
 ### 코드
 
-<iframe src="https://codesandbox.io/embed/react-useid-9dg93p?fontsize=14&hidenavigation=1&theme=dark"
+[![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-9dg93p?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+
+<iframe src="https://codesandbox.io/embed/react-useid-9dg93p?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="react useId"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
