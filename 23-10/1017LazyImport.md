@@ -48,13 +48,16 @@ const MyComponent = lazy(() => import("./Counter.jsx"));
 
 ### 예제 1
 
-<iframe src="https://codesandbox.io/embed/react-lazy-loading1-qpfxsz?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="React lazy Loading1"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-   버튼을 클릭하면 그때서야 해당 컴포넌트를 import하는 방식이다.
+![Alt text](images/1017LazyImport/lazy1.gif)
+<br/>
+<br/>
+<br/>
+<br/>
+[![Edit React lazy Loading1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-lazy-loading1-qpfxsz?fontsize=14&hidenavigation=1&theme=dark)
+
+버튼을 클릭하면 그때서야 해당 컴포넌트를 import하는 방식이다.
+
+<hr/>
 <br/>
 <br/>
 <br/>
@@ -63,12 +66,12 @@ const MyComponent = lazy(() => import("./Counter.jsx"));
 
 ### 예제 2
 
-<iframe src="https://codesandbox.io/embed/react-useid-9dg93p?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react useId"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+![Alt text](images/1017LazyImport/lazy2.gif)
+<br/>
+<br/>
+<br/>
+<br/>
+[![Edit React lazy Loading2](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-lazy-loading2-zn93d7?fontsize=14&hidenavigation=1&theme=dark)
 
 마우스를 클릭했을때 setTimeout을 사용해 딜레이를 준 예제이다.
 
@@ -82,12 +85,13 @@ const MyComponent = lazy(() => import("./Counter.jsx"));
 
 ### 예제 3
 
-<iframe src="https://codesandbox.io/embed/react-lazy-loading3-zs9yzq?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="React lazy Loading3"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+![Alt text](images/1017LazyImport/lazy3.gif)
+<br/>
+<br/>
+<br/>
+<br/>
+[![Edit React lazy Loading3](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-lazy-loading3-zs9yzq?fontsize=14&hidenavigation=1&theme=dark)
+
 마우스 오버했을때 이벤트를 발생시킨 예제이다.
 
 클릭했을때 임포트하는것이 아닌 마우스를 오버했을때 임포트를한다.

@@ -83,7 +83,7 @@ export default function App() {
 <br/>
 
 <blockquote>
-However, hardcoding IDs like this is not a good practice in React. A component may be rendered more than once on the page—but IDs have to be unique! Instead of hardcoding an ID, generate a unique ID with useId:
+However, hardcoding IDs like this is not a good practice in React. <br />A component may be rendered more than once on the page—but IDs have to be unique! Instead of hardcoding an ID, generate a unique ID with useId:
 </blockquote>
 <br/>
 인풋 옆의 'ID' 레이블을 클릭해 보면, 해당 ID가 연결된 인풋 요소로 포커스가 이동합니다.
