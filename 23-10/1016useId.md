@@ -54,12 +54,24 @@ function MyComponents(){
 
 [![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-9dg93p?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
 
-<iframe src="https://codesandbox.io/embed/react-useid-9dg93p?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react useId"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+```jsx
+import { useId } from "react";
+import "./styles.css";
+
+export default function App() {
+  const userId = useId();
+
+  return (
+    <>
+      <h2> ID 레이블을 클릭해보세요 !</h2>
+      <label style={{ cursor: "pointer" }} title="나를 클릭해보세요" htmlFor={userId}>
+        ID :
+      </label>
+      <input type="text" id={userId} placeholder="id" maxLength="6" />
+    </>
+  );
+}
+```
 
 <br/>
 <br/>
