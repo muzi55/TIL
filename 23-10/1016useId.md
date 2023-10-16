@@ -2,7 +2,9 @@
 
 ![Alt text](../images/canIReactBG/%EB%8B%B9%EC%8B%A0%EB%8F%84%ED%95%A0%EC%88%98%EC%9E%88%EB%8B%A4%EB%A6%AC%EC%95%A1%ED%8A%B8.png)
 
-- `오늘의 한일` useId를 사용하여 고유 ID 생성하기
+- `오늘의 한일` `useId`를 사용하여 고유한 ID 생성하기
+- [![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
+
   <br/>
   <br/>
   <br/>
@@ -14,7 +16,7 @@
 key를 생성하기 위해 사용하면 안됨!
 
 ```jsx
-// useId 훅 사용하기
+// useId 훅 사용 예시
 const id = useId();
 ```
 
@@ -30,7 +32,7 @@ function MyComponents(){
     // ...
 ```
 
-컴포넌트 최상단에 `useId`를 호출하여 고유 ID를 생성함.
+컴포넌트 최상단에서 useId를 호출하여 고유한 ID를 생성합니다.
 
 <br/>
 <br/>
@@ -43,25 +45,20 @@ function MyComponents(){
 </>
 ```
 
-생성된 ID를 다른 속성에 전달할 수 있다.
+생성된 ID를 다른 속성에 전달할 수 있습니다.
 <br/>
 <br/>
 <br/>
 
 ### 코드
 
-[![Edit react useId](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
-
-<iframe src="https://codesandbox.io/embed/react-useid-t4vwn6?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://codesandbox.io/embed/react-useid-9dg93p?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="react useId"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-인풋 옆 'ID' 레이블을 눌러보자 그러면 ID가 연결되어있는 인풋으로 포커싱이된다.
-
-이렇게 하는 이유가 뭘까? 그냥 ID로 'userId'로 값을주면 될텐대
 <br/>
 <br/>
 <br/>
@@ -70,9 +67,10 @@ function MyComponents(){
 However, hardcoding IDs like this is not a good practice in React. A component may be rendered more than once on the page—but IDs have to be unique! Instead of hardcoding an ID, generate a unique ID with useId:
 </blockquote>
 <br/>
+인풋 옆의 'ID' 레이블을 클릭해 보면, 해당 ID가 연결된 인풋 요소로 포커스가 이동합니다.
 
-ID를 직접 하드코딩하는건 React에서 좋은 방법이 아니다.
+이렇게 하는 이유는 ID를 직접 하드코딩하는 것은 권장되지 않는 React의 좋은 습관이 아니기 때문입니다.
 
-컴포넌트는 페이지에서 두 번 이상 렌더링될 수 있지만 `ID는 고유해야하기때문`이다.
+컴포넌트가 페이지에서 여러 번 렌더링될 수 있지만 `ID는 고유해야 합니다.`
 
-ID를 하드코딩하는 대신, useId로 고유한 ID를 생성하라고 나온다.
+그래서 ID를 직접 하드코딩하는 대신, useId를 사용하여 고유한 ID를 생성하는 것이 좋습니다.
