@@ -28,3 +28,4 @@ Today I Learned !!
 - [18 React.memo 사용하여 최적화하기](https://github.com/muzi55/TIL/blob/october/23-10/1018Reactmemo%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 - [19 createPortal을 사용한 모달창만들기](https://github.com/muzi55/TIL/blob/october/23-10/1019CreateModal%EB%A1%9C%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%AA%A8%EB%8B%AC.md)
 - [20 클린코드 조건문](https://github.com/muzi55/TIL/blob/october/23-10/1020%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C.md)
+- [24 Vue로 만드는 카운트 앱](https://github.com/muzi55/TIL/blob/main/23-10/1024%EC%B2%98%EC%9D%8C%20%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EB%8A%94%20vue.md)
